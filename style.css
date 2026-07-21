@@ -1,6 +1,7 @@
-#title-line {
-    font-size: larger;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .whole-calculator,
@@ -23,7 +24,7 @@
     width: 300px;
     border: 2px solid black;
     padding: 10px;
-    background-color: rgb(155, 218, 237);
+    background-color: rgba(54, 103, 202, 0.233);
     border-radius: 15px;
 }
 
@@ -59,7 +60,7 @@
 .button {
     margin: 2px;
     flex: 1;
-    font-size: larger;
+    font-size: 20px;
     justify-content: center;
     align-items: center;
     border-radius: 15px;
